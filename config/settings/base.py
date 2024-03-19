@@ -83,7 +83,10 @@ THIRD_PARTY_APPS = [
 
 LOCAL_APPS = [
     "users",
+<<<<<<< HEAD
     'chat',
+=======
+>>>>>>> 4ae7687d27840c5702f8c4672c9a57d2eafc5777
     # Your stuff: custom apps go here
 ]
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps

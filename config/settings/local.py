@@ -69,11 +69,16 @@ CELERY_TASK_EAGER_PROPAGATES = True
 
 DATABASES = {
     "default": {
+<<<<<<< HEAD
         "ENGINE": "django.db.backends.postgresql_psycopg2",
         "NAME": 'exam2',  # noqa
         "USER": 'exam2',  # noqa
         "PASSWORD": 'exam2',  # noqa
         "HOST": 'localhost',  # noqa
         "PORT": '5432',  # noqa
+=======
+        "ENGINE": "django.db.backends.sqlite3",
+        "NAME": BASE_DIR / "db.sqlite3",  # noqa
+>>>>>>> 4ae7687d27840c5702f8c4672c9a57d2eafc5777
     }
 }
